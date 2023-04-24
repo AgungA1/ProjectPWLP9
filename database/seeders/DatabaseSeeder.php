@@ -22,6 +22,6 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
-        Mahasiswa::factory()->count(20)->create();
+        // Mahasiswa::factory()->count(20)->create();laravel
     }
 }
