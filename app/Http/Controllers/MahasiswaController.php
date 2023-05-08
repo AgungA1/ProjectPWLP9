@@ -100,13 +100,14 @@ class MahasiswaController extends Controller
      *
      * @param  \App\Models\Mahasiswa  $mahasiswa
      * @return \Illuminate\Http\Response
-     *
+     */
     public function edit($nim)
     {
         $Mahasiswa = Mahasiswa::find($nim);
         $kelas = Kelas::all();
         return view('mahasiswas.edit', compact('Mahasiswa', 'kelas'));
     }
+
 
     /**
      * Update the specified resource in storage.
