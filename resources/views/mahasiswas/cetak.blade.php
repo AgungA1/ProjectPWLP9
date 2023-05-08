@@ -12,10 +12,6 @@
             <strong>NIM: </strong> {{$Mahasiswa->nim}}<br>
             <strong>Class: </strong> {{$Mahasiswa->kelas->nama_kelas}}
         </div>
-        <div class="col d-flex justify-content-end align-items-end">
-            {{-- <a href="/mahasiswas/cetak/{{$Mahasiswa->nim}}" class="btn btn-warning">Cetak PDF</a> --}}
-            <a href="{{ route('mahasiswas.cetak', $Mahasiswa->nim) }}" class="btn btn-warning">Cetak PDF</a>
-        </div>
     </div>
     <br>
     <table class="table table-bordered">
@@ -38,6 +34,5 @@
             @endforeach
         </tbody>
     </table>
-    <a href="{{ route('mahasiswas.index') }}" class="btn btn-success">Kembali</a>
 </div>
 @endsection

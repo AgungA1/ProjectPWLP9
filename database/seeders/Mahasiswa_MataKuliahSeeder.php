@@ -17,44 +17,24 @@ class Mahasiswa_MataKuliahSeeder extends Seeder
     {
         $datas = [
             [
-                'mahasiswa_id' => 2141720114,
+                'mahasiswa_id' => 2141720110,
                 'matakuliah_id' => 1,
                 'nilai' => 'A',
             ],
             [
-                'mahasiswa_id' => 2141720114,
+                'mahasiswa_id' => 2141720110,
                 'matakuliah_id' => 2,
                 'nilai' => 'A',
             ],
             [
-                'mahasiswa_id' => 2141720114,
+                'mahasiswa_id' => 2141720110,
                 'matakuliah_id' => 3,
                 'nilai' => 'A',
             ],
             [
-                'mahasiswa_id' => 2141720114,
+                'mahasiswa_id' => 2141720110,
                 'matakuliah_id' => 4,
-                'nilai' => 'B',
-            ],
-            [
-                'mahasiswa_id' => 2141720113,
-                'matakuliah_id' => 1,
-                'nilai' => 'B',
-            ],
-            [
-                'mahasiswa_id' => 2141720113,
-                'matakuliah_id' => 2,
-                'nilai' => 'C',
-            ],
-            [
-                'mahasiswa_id' => 2141720113,
-                'matakuliah_id' => 3,
-                'nilai' => 'B',
-            ],
-            [
-                'mahasiswa_id' => 2141720113,
-                'matakuliah_id' => 4,
-                'nilai' => 'B',
+                'nilai' => 'B+',
             ],
         ];
         DB::table('mahasiswa_matakuliah')->insert($datas);
